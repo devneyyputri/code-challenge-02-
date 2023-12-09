@@ -3,25 +3,46 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --gray: #4a5568
   }
-}
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+  }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  /* .navbar {
+    background-color: rgb(255, 192, 218);
+    height: 135px;
+    display: flex;
+    width: 100%;
+    padding: 0 20%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.2);
+    position: fixed;
+  } */
+
+  .navbar .menu {
+
+    display: flex;
+    gap: 30px;
+  }
+
+  /* .hero {
+    padding: 85px 10% 0 10%;
+    height: 470px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 51, 51);
+  } */
+  
+  .hero img {
+    width: 50%;
+    height: 323px;
+  }
