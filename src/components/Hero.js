@@ -28,13 +28,3 @@ export default function Hero() {
       </Box>
     );
   }
-{/* <section className="hero">
-        <div className="header-text">
-          <div>
-            <Heading as={'h1'}> Homemade Cake </Heading>
-            <p> Fresh from the oven </p>
-          </div>
-        </div>
-        
-        
-      </section> */}
