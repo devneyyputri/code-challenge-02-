@@ -4,12 +4,11 @@ import Image from "next/image";
 export default function Hero() {
     return (
       <Center>
-       <Flex>
       <Box height={"200px"} bg={"beige"}>
         <Container>
          <Heading className="font-mono font-large" fontSize='4vw' color='brown' as={"h1"}> Coco&apos;s Cakery </Heading>
         
-        <Flex>
+         <Flex>
          <Image 
          src="/coco's maskot.png"
          width={100}
@@ -22,7 +21,7 @@ export default function Hero() {
             
           </Container>
         </Box>
-        </Flex>
+        
         </Center> 
     );
   }
