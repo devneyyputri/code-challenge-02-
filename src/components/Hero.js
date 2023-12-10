@@ -1,13 +1,12 @@
-import { Box, Center, Heading, Container, Flex  } from "@chakra-ui/react";
+import { Box, Center, Heading, Container, Flex  } from "@chakra-ui/react"
 import Image from "next/image";
-import { Container } from "postcss/lib/container";
 
 export default function Hero() {
     return (
       <Box height={"200px"} bg={"beige"}>
         
         <Center>
-          <Container>
+          
              <Heading className="font-mono font-large" fontSize='4vw' color='brown' as={"h1"}> Coco&apos;s Cakery </Heading>
              <Center>
          <Flex>
