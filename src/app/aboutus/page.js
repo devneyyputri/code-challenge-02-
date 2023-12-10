@@ -44,9 +44,9 @@ export default function Page(props) {
           </Center>
           <hr style={{ marginBottom: "20px", color: "red-900" }}></hr>
           <p style={{ textAlign: "justify" }}>
-          Welcome to Coco&apos;s Cakery – Where Every Slice Tells a Story! At Coco&apos;s Cakery, we believe that life is sweeter with a slice of cake. Nestled in the heart of Tangerang, our cakery is a haven for cake enthusiasts seeking not just a treat for the taste buds, but a celebration of flavor, artistry, and moments that matter. Our ovens have been working tirelessly since 2003 to bring you the finest cakes crafted with passion, expertise, and a dash of magic.
+          Welcome to Coco's Cakery – Where Every Slice Tells a Story! At Coco's Cakery, we believe that life is sweeter with a slice of cake. Nestled in the heart of Tangerang, our cakery is a haven for cake enthusiasts seeking not just a treat for the taste buds, but a celebration of flavor, artistry, and moments that matter. Our ovens have been working tirelessly since 2003 to bring you the finest cakes crafted with passion, expertise, and a dash of magic.
           Our Story
-          Coco&apos;s Cakery was born out of a love for baking and a desire to create memorable experiences through delicious confections. Our founder, Devney, a seasoned pastry chef with a penchant for perfection, embarked on a culinary journey to curate a menu that would leave an indelible mark on your palate.
+          Coco's Cakery was born out of a love for baking and a desire to create memorable experiences through delicious confections. Our founder, Devney, a seasoned pastry chef with a penchant for perfection, embarked on a culinary journey to curate a menu that would leave an indelible mark on your palate.
           </p>
           <Heading as={"h1"} marginBottom={"20px"}>
             {" "}
