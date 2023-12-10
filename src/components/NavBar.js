@@ -9,7 +9,7 @@ export default function NavBar() {
                     <Flex >
                        
                             <a color={'white'}>
-                                <img src='/instagram.svg' width={24} height={34} alt="instagram"/>
+                                <Image src='/instagram.svg' width={24} height={34} alt="instagram"/>
                             </a>
                              
                         <div w={"40%"} style={{marginRight: 50 }}>
