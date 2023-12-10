@@ -1,3 +1,5 @@
+
+"use client";
 // import NavBar from '@/components/NavBar' 
 import DashboardLayout from './dashboardLayout'
 import Highlight from '@/components/highlight'
