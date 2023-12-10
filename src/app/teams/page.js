@@ -27,7 +27,7 @@ export  default function Blog() {
 <button onClick={()=> console.log(data)}>coco</button>
 
         <div  className="  m-auto  text-xl justify-center text-center p-10" >
-                <h1 className="font-mono font-large"> Cocos's Teams</h1>
+                <h1 className="font-mono font-large"> Cocos&apos;s Teams</h1>
         </div>
         {data.teams?.results?.map((item, index)=>{
             return(

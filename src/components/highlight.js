@@ -32,11 +32,11 @@ export default function Highlight() {
         <section className="highlight">
           <div className="desc-text">
             <Heading color='#9C4221' textAlign={"center"} style={{fontSize:"4vw"}}>
-              Welcome to Coco's Cakery
+              Welcome to Coco&apos;s Cakery
               </Heading>
             <p>
              Where Every Bite is a Celebration!
-             Indulge in the sweet symphony of flavors at Coco's Cakery
+             Indulge in the sweet symphony of flavors at Coco&apos;s Cakery
             </p>
           </div>
         </section>
