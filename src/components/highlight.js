@@ -1,3 +1,4 @@
+"use client";
 import { Box, Center, Flex } from "@chakra-ui/react";
 import Image from "next/image";
 import { Heading } from "@chakra-ui/react";
