@@ -5,17 +5,17 @@ import Image from "next/image";
 
 export default function NavBar() {
     return (
-         <Box bgColor={"brown"} h={"60px"} lineHeight={"50px"} color={"white"}>
+         <Box bgColor={"brown"} h={"60px"} lineHeight={"50px"} color={"white"} maxW={{ base: "full", md: "275px" }}>
             <Center>
                 <Container>
                     <Flex >
                        
-                            <a color={'white'}>
-                                <Image src='/instagram.svg' width={24} height={34} alt="instagram"/>
-                            </a>
+                         <a color={'white'}>
+                            <Image src='/instagram.svg' width={24} height={34} alt="instagram"/>
+                        </a>
                              
                         <div w={"40%"} style={{marginRight: 50 }}>
-                            <Link href={"/"}> Cocopufffs </Link>
+                            <Link href={"/"}> Cocopuffs </Link>
                         </div>
                         <nav w={"80%"}>
                             <Link href={"/"} className="mr-[20px]">
@@ -34,7 +34,7 @@ export default function NavBar() {
                                 {" "}
                                 About{" "}
                             </Link>
-                            
+
                         </nav>
                     </Flex>
                 </Container>

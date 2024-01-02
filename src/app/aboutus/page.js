@@ -4,6 +4,7 @@ import { Box, Center, Container, Flex, Heading } from "@chakra-ui/react";
 
 export default function Page(props) {
     return (
+    <Center>
     <div>
        <h1>
         <Flex>
@@ -35,7 +36,7 @@ export default function Page(props) {
         /> 
         </Flex>
     <Box padding={"20px 0"}>
-      <Center>
+      
         <Container>
           <Center>
           <Heading as={"h1"} marginBottom={"20px"}>
@@ -58,11 +59,11 @@ export default function Page(props) {
 
           </p>
         </Container>
-      </Center>
+      
     </Box>
        </h1>
     </div>
-    
+    </Center>
  
     
         

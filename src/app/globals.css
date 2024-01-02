@@ -16,7 +16,7 @@
     width: 100%;
   }
 
-  /* .navbar {
+  .navbar {
     background-color: rgb(255, 192, 218);
     height: 135px;
     display: flex;
@@ -26,7 +26,7 @@
     justify-content: space-between;
     box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.2);
     position: fixed;
-  } */
+  }
 
   .navbar .menu {
 
@@ -34,13 +34,13 @@
     gap: 30px;
   }
 
-  /* .hero {
+  .hero {
     padding: 85px 10% 0 10%;
     height: 470px;
     display: flex;
     align-items: center;
     background-color: rgb(54, 51, 51);
-  } */
+  }
   
   .hero img {
     width: 50%;
