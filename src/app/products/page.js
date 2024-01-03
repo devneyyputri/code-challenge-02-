@@ -37,7 +37,7 @@ export default function Products() {
     <Box>
 
       <Center>
-      <h1 className="font-serif" style={{fontSize:"4vw", margin:"3%", color:"red-900"}}> Products </h1>
+      <h1 className="font-mono" as="i" style={{fontSize:"3vw", margin:"3%", color:"#FBD38D"}}> Our Best seller and Signature </h1>
  
       </Center>
       <hr></hr>

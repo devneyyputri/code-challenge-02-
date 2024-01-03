@@ -6,7 +6,7 @@ import { Heading } from "@chakra-ui/react";
 export default function Highlight() {
     return (
       <Flex maxWidth='max-content' alignItems='center' gap='5'>
-      <Box p={4}>
+      <Box marginBottom={25} marginTop={1} p={4}>
         <Center>
         <Stack direction='row'>
          <Image
@@ -37,11 +37,11 @@ export default function Highlight() {
         <Center>
         <section className="highlight">
           <div className="desc-text">
-            <Heading color='#9B2C2C' textAlign={"center"} style={{fontSize:"2vw"}}>
+            <Heading marginTop={25} color='#9B2C2C' textAlign={"center"} style={{fontSize:"2.5vw"}}>
               Welcome to Coco&apos;s Cakery
             </Heading>
             <Container maxW='1000px' bg='purple.600' color='white'>
-            <Text color={"#4A5568"} textAlign={"relative"} style={{fontSize:"2vw"}} >
+            <Text color={"#4A5568"} textAlign={"relative"} style={{fontSize:"1.5vw"}} >
              Where Every Bite is a Celebration!
              Indulge in the sweet symphony of flavors at Coco&apos;s Cakery
              Step into our whimsical world of sugar and flour 
