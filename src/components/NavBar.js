@@ -5,19 +5,15 @@ import Image from "next/image";
 
 export default function NavBar() {
     return (
-         <Box bgColor={"brown"} h={"60px"} lineHeight={"50px"} color={"white"} maxW={{ base: "full", md: "275px" }}>
+         <Box  textColor={"#FEEBC8"} bgColor={"#9B2C2C"} h={"80px"} lineHeight={"40px"} maxW={{ base: "full", md: "275px" }}>
             <Center>
                 <Container>
-                    <Flex >
-                       
-                         <a color={'white'}>
-                            <Image src='/instagram.svg' width={24} height={34} alt="instagram"/>
-                        </a>
-                             
-                        <div w={"40%"} style={{marginRight: 50 }}>
+                    <Flex  marginLeft={20} marginTop={25}>
+                            
+                        <div w={"50%"} style={{marginRight:20 }}>
                             <Link href={"/"}> Cocopuffs </Link>
                         </div>
-                        <nav w={"80%"}>
+                        <nav w={"60%"}>
                             <Link href={"/"} className="mr-[20px]">
                                 {" "}
                                 Home{" "}
@@ -34,8 +30,19 @@ export default function NavBar() {
                                 {" "}
                                 About{" "}
                             </Link>
-
                         </nav>
+                        <Flex>
+                        <Box marginLeft={35} marginTop={5}>
+                         <a color={'white'}>
+                            <Image src='/instagram.svg' width={24} height={34} alt="instagram"/>
+                        </a>
+                        </Box>
+                        <Box marginLeft={25} marginTop={9}>
+                        <a color={'white'}>
+                            <Image src='/twt.svg' width={24} height={34} alt="instagram"/>
+                        </a>
+                        </Box>
+                        </Flex>
                     </Flex>
                 </Container>
             </Center>

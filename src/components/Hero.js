@@ -6,23 +6,22 @@ export default function Hero() {
     return (
       <Center>
       
-    
-      <Box w={"95%"} m={"2%"} borderColor={"brown"} border={"6px"} bg={"beige"}>
+      <Container w={"105%"} m={"1%"} bg={"beige"} borderColor={"red"} border={"30px"} >
        
-        
-         <Heading className="font-mono font-large" fontSize='3vw' color='brown' as={"h1"}> Coco&apos;s Cakery </Heading>
-         <Image 
+       
+         <Heading marginLeft={360} marginRight={100} className="font-mono font-large" fontSize='3vw' color='brown' as={"h1"}> Coco&apos;s Cakery </Heading>
+        <Box marginLeft={360} marginRight={100}>
+         <Image marginLeft={360} marginRight={100} 
          src="/coco's maskot.png"
-         width={100}
+         width={150}
          height={200}
          alt="maskot coco"
          />
-         <text noOfLines={1} className="font-mono font-small" color='#brown'> 
+        <h1 marginLeft={360} marginRight={100} color="yellow" className="font-mono font-small" > 
          the best baked goods you&apos;ll ever taste! 
-         </text>
-          
-          
+        </h1>
         </Box>
+        </Container>
         
         
       
