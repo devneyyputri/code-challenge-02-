@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function NavBar() {
     return (
-         <Box  textColor={"white"} bgColor={"#9B2C2C"} h={"80px"} lineHeight={"40px"} maxW={{ base: "full", md: "275px" }}>
+         <Box textColor={"white"} bgColor={"#9B2C2C"} h={"80px"} lineHeight={"40px"} maxW={{ base: "full", md: "900px" }}>
             <Center>
                 <Container>
                     <Flex  marginLeft={20} marginTop={25}>

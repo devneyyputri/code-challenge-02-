@@ -10,27 +10,27 @@ export default function Highlight() {
         <Center>
         <Stack direction='row'>
          <Image
-        
+         boxSize='100px'
          src="/cake.png"
          width={220}
          height={210}
          alt="cake"
          />
          <Image
-        
+         boxSize='100px'
          src="/store.png"
          width={260}
          height={260}
          alt="store"
          />
         <Image
-        
+         boxSize='100px'
          src="/strwbbry.png"
          width={260}
          height={260}
          alt="strwbrry"
          />
-         {/* <Image boxSize='200px'/> */}
+         <Image boxSize='200px'/>
          </Stack>
          </Center>
          
@@ -40,7 +40,7 @@ export default function Highlight() {
             <Heading marginTop={25} color='#9B2C2C' textAlign={"center"} style={{fontSize:"2.5vw"}}>
               Welcome to Coco&apos;s Cakery
             </Heading>
-            <Container maxW='1000px' bg='purple.600' color='white'>
+            <Container maxW='maxcontent' bg='red.600' color='white'>
             <Text color={"#4A5568"} textAlign={"relative"} style={{fontSize:"1.5vw"}} >
              Where Every Bite is a Celebration!
              Indulge in the sweet symphony of flavors at Coco&apos;s Cakery
